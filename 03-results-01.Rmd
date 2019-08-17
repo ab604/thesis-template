@@ -1,0 +1,10 @@
+# Results {#results-1}
+
+First results chapter.
+
+(ref:mpg-plot) Car engine size versus fuel efficiency. The mpg data contains observations collected by the US Environmental Protection Agency on 38 models of car. 
+
+```{r mpg,echo=FALSE,fig.cap ='(ref:mpg-plot)', fig.scap='Car engine size versus fuel efficiency',out.extra='',fig.align='center',cache=TRUE,warning=FALSE,fig.pos="H"}
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, color = class))
+```

@@ -1,0 +1,18 @@
+--- 
+# YAML for thesis template
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [bib/packages.bib, bib/papers.bib] # Changes to reference bib files as needed
+biblio-style: apalike
+toc: False # Table of contents supplied from tex files
+lof: False # List of figures supplied from tex files
+lot: False # List of tables supplied from text files
+link-citations: yes
+geometry: "left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm" # Change to margins required
+---
+
+```{r include=FALSE, cache=TRUE}
+# Load libraries and data here, and cache the data
+library(tidyverse)
+library(kableExtra)
+```

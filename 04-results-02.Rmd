@@ -1,0 +1,8 @@
+# Results {#results-2}
+
+Second results chapter. Here's a reference: [@abe2009].
+
+```{r mpg-table, echo=FALSE, cache=TRUE}
+kable(head(mpg[, 1:8], 10), "latex", caption = "A table of the first 10 rows of the mpg data set", booktabs = T) %>%
+kable_styling(latex_options = c("hold_position"))
+```

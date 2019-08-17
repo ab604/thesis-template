@@ -1,0 +1,39 @@
+% Peamble - load all the packages
+\usepackage[none]{hyphenat}
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage[default,osfigures,scale=0.95]{opensans} % Open sans font
+\usepackage{lmodern}
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{appendix}
+\usepackage{graphicx}
+\usepackage{lscape}
+\usepackage{pdfpages} % include pdf pages
+\usepackage{microtype} % Try to prevent badbox errors
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{verbatim}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{fixltx2e}
+\usepackage{subfig}
+\usepackage{mathpazo,mathrsfs}
+\usepackage{latexsym}
+\usepackage{sidecap}
+\usepackage{eucal}
+\usepackage{setspace}
+\usepackage{ragged2e}
+
+%\raggedbottom 
+\usepackage{makeidx} % These lines add bibliography to TOC
+\makeindex
+\usepackage[nottoc]{tocbibind}
+\usepackage{natbib}
+\setcitestyle{authoryear,aysep={,}} % needed to fully emulate harvard's "dcu" citation style
+\usepackage{har2nat}
+\renewcommand{\bibname}{References} % Rename biblography as References
+\usepackage{bookmark}
+
+% Read in the style files for the 
+\input{tex-files/uhead.sty} % underlined header for pages
+\input{tex-files/mkthesis.sty} % Defines the front matter and other bits and pieces
+

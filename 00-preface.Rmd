@@ -1,0 +1,10 @@
+\phantomsection
+\pdfbookmark[0]{Title Page}{title}
+ <!-- Title, name and date -->
+ \title{\LARGE {\bf My awesome thesis dissertaion title}\\
+  \vspace*{6mm}}
+ \author{Monika Kudelska}
+\maketitle
+<!-- % Preface files - see mkthesis.sty for what these should be. -->
+\preface
+\body

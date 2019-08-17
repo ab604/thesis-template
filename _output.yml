@@ -1,0 +1,12 @@
+bookdown::pdf_book:
+  latex_engine: xelatex
+  includes:
+      in_header: tex-files/preamble.tex
+      keep_tex: yes
+      citation_package: natbib
+      fig_caption: yes
+      fontsize: 11pt
+      linestretch: 1.5
+      toc-depth: 1
+      secnumdepth: 1
+      biblio-style: apalike
