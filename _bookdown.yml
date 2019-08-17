@@ -4,6 +4,3 @@ rmd_files: ["index.Rmd","00-preface.Rmd", "01-intro.Rmd","02-methods.Rmd", "03-r
 language:
   ui:
     chapter_name: "Chapter "
-    
-
-# "20-appendix-a.Rmd","21-appendix-b.Rmd",
