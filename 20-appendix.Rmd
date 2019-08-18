@@ -1,0 +1,7 @@
+# (APPENDIX) Appendix {-}
+<!-- Add Appendix to TOC -->
+\addappheadtotoc
+<!-- Appendix cover page -->
+\appendixpage  
+\cleardoublepage
+

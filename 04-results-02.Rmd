@@ -1,4 +1,4 @@
-# Results {#results-2}
+# Second Results {#results-2}
 
 Second results chapter. Here's a reference: [@abe2009].
 
