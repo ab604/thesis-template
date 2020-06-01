@@ -1,10 +1,18 @@
 # First Results {#results-1}
 
-First results chapter.
+First results chapter with Figure \@ref(fig:fig1-chunk).
 
-(ref:mpg-plot) Car engine size versus fuel efficiency. The mpg data contains observations collected by the US Environmental Protection Agency on 38 models of car. 
+(ref:mpg-plot) Car engine size versus fuel efficiency. The mpg data contains observations collected by the US Environmental Protection Agency on 38 models of car.
 
-```{r mpg,echo=FALSE,fig.cap ='(ref:mpg-plot)', fig.scap='Car engine size versus fuel efficiency',out.extra='',fig.align='center',cache=TRUE,warning=FALSE,fig.pos="H"}
+```{r fig1-chunk,echo=FALSE,fig.cap ='(ref:mpg-plot)', fig.scap='Car engine size versus fuel efficiency',out.extra='',fig.align='center',cache=TRUE,warning=FALSE,fig.pos="H"}
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy, color = class))
 ```
+
+> **Notes** The caption comes from the text following `(ref:fig1-caption)` and 
+this has to be all one line like so:
+
+>`(ref:mpg-plot) Car engine size versus fuel efficiency. The mpg data contains observations collected by the US Environmental Protection Agency on 38 models of car.`
+
+> Whilst the reference number to the figure itself comes from 
+the code chunk name `fig1-chunk` inside the referencing syntax `\@ref(fig:fig1-chunk)`.
